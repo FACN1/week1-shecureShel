@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 #wrapper {
 border: 3px solid red;
 }
@@ -14,5 +18,29 @@ border: 3px solid blue;
 width: 30%;
 text-align: center;
 position: relative;
+}
 
+.about-wrapper {
+  border: 3px solid green;
+  text-align: center;
+}
+
+.about-wrapper header {
+
+}
+
+.logo-wrapper {
+  border: 3px solid orange;
+  width: 50%;
+  /*height: auto;*/
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+.logo-wrapper img {
+  width: 115%;
+  height: auto;
+  margin: 0;
 }
