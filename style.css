@@ -10,7 +10,16 @@
 .nav-wrapper {
   border: 3px solid black;
   position: relative;
+  margin: auto;
   text-align: center;
+  width: 100%;
+}
+
+.nav-wrapper ul {
+  margin: auto;
+  position: relative;
+  width: 100%;
+  padding: 0;
 }
 
 .nav-wrapper li{
