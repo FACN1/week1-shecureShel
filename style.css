@@ -32,7 +32,7 @@ position: relative;
 .logo-wrapper {
   border: 3px solid orange;
   width: 50%;
-
+  height: auto;
   position: relative;
   margin: auto;
   overflow: hidden;
@@ -40,26 +40,35 @@ position: relative;
 }
 
 .logo-wrapper img {
-  width: 115%;
+  width: 100%;
   height: auto;
-  margin: 0;
+  margin: auto;
+  display: inline-block;
 }
-.hibaArticle{}
+
+.profileArticle{
+  border: 3px solid black;
+  text-align: center;
+
+}
+
 .hiba {
   width: 200px;
   height: 200px;
   border: 3px solid pink;
   overflow: hidden;
-  text-align: center;
   position: relative;
   border-radius: 50%;
+  margin: auto;
 
 }
 .hiba img{
   width:150%;
   height: auto;
-  margin-left:0;
-position: relative;
-right: 50px;
+  margin: auto;
+  position: relative;
+  right: 50px;
   transform: rotate(270deg);
+  display: inline-block;
+
 }
